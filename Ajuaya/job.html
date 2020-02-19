@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body>
+    <div class="job">
+        <div class="job-div">
+            <h1 class="job-title">Job Application</h1>
+            <p class="close">x</p>
+        </div>
+        <div class="upload-section">
+            <h1 class="upload">Upload CV</h1>
+            <p class="upload-text">Your resume will be made available to potential employers when they view your profile</p>
+            <div class="document-div">
+                <p class="document">Document or PDF format only ( 5MB )</p>
+                <div class="btn">
+                    <label for="upload-doc">Upload</label>
+                    <input class="button" type="file" name="doc" id="upload-doc">
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-section">
+            <h1 class="portfolio">Add link to portfolio</h1>
+            <input id="job-input" class="portfolio-input" type="text" placeholder=" https://">
+        </div>
+        <hr>
+        <div class="buttons">
+           <button class="next" onclick="myPortfolio()">Next</button>
+            <button class="skip" onclick="location.href='qualification.html'">Skip</button>
+            <button class="link" href="" onclick="location.href='apply.html'"> Previous Step</button> 
+        </div>
+      
+        <div class="image" >
+            <img class="img" src="./img/Rectangle 190 (1).png" >
+        </div>
+
+        
+        
+    </div>
+
+
+
+
+    <script src="index.js" ></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+.explore {
+    width: 353px;
+    margin-right: 2%;
+    border: 1.36194px solid #C4C4C4;
+    box-sizing: border-box;
+
+    .explore-container {
+        margin-left: 5%;
+
+
+            .explore-header {       
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+            color: #000000;
+        }
+        .explore-paragraph {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 111.68%;
+            color: rgba(0, 0, 0, 0.53);
+        }
+        .button1 {
+            padding: 5px;
+            width: 100px;
+            color: #3A0842;
+            background: #9A75A0;
+            border-radius: 14.0327px;
+            border: none;
+        }
+        .rating {
+            margin-bottom: 5%;
+        }
+        .button2 {
+            color: #E3B82A;
+            padding: 5px;
+            width: 100px;
+            background: #FFE697;
+            border-radius: 14.127px;
+            border: none;
+            margin-left: 5%;
+        }
+        .explore-buttons {
+            margin-bottom: 3%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+}

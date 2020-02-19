@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualification</title>
+    <link rel="stylesheet" href="rating.css">
+</head>
+<body>
+    <div class="qualification">
+        <div class="job-div">
+            <h1 class="job-title">Job Application</h1>
+            <p class="close">x</p>
+        </div>
+    
+
+        <div class="education">
+            <h1 class="edu">Set skill rating</h1>
+            <p class="note">Your resume will be made available to potential employers when they view your profile</p>
+
+            <form class="form">
+                <div class="form-input">
+                    <label>Name of Skill <b>*</b></label>
+                    <input id="skill-input" class="input" type="text" placeholder="Add a new skill">
+                </div>
+                <div class="form-input">
+                    <label>Number of years as a professional <b>*</b></label>
+                    <select>
+                        <option>Select your Professional year</option>
+                        <option>0 - 1year</option>
+                        <option>2years</option>
+                        <option>3years</option>
+                        <option>4years</option>
+                        <option>5years</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label>Level of experience <b>*</b></label>
+                    <select>
+                        <option>Select your Experience level</option>
+                        <option>Junior (0- 2years)</option>
+                        <option>Intermediate (2 - 5years)</option>
+                        <option>Advanced (5years and above)</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="save">Save</button>
+                </div>
+
+                <div class="buttons-div">
+                    <button class="next-button" type="button" onclick="myRating()">Next</button>
+                    <a href="skill.html" class="previous-button">Previous step</a>
+                    <hr>
+                </div>
+            
+                <div class="image" >
+                    <img class="img" src="./img/Rectangle 190 (2).png" >
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="index.js" ></script>
+</body>
+</html>

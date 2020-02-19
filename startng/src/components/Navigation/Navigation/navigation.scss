@@ -1,0 +1,40 @@
+
+.navi {
+    margin-left: 11%;
+}
+.navigation {
+    margin-top: 15px;
+    margin-left: 20%;
+    font-weight: bold;
+    color: #2A2B2A;;
+}
+.nav-btn {
+    background: #2DCE89;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border: none;
+}
+.navigation-links {
+    margin-left: 100px;
+}
+.nav-links {
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navi {
+        width: 90%;
+    }
+    .navigation {
+        margin-left: 0%;
+    }
+    .navigation-links{
+        margin-left: 0px;
+    }
+    .nav-links {
+        margin-left: 0px;
+    }
+}

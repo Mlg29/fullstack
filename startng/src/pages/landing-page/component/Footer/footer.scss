@@ -1,0 +1,74 @@
+
+.footer {
+    background: #3A0842;
+    width: 100%;
+    overflow: hidden;
+
+    .footer-image {
+        margin: 5% 5% 2% 12%;
+    }
+
+    .footer-link {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin-left: 12%;
+        
+
+        .footer-link-div {
+            color: white;
+            width: 300px;
+            display: flex;
+            margin-right: 7%;
+            margin-bottom: 2%;
+            flex-direction: column;
+
+            .footer-text {
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 124.8%;
+                letter-spacing: 0.655606px;
+                color: #FFFFFF;
+            }
+        }
+        .footer-link-div1 {
+            color: white;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+
+
+            .footer_link {
+                color: white;
+            }
+        }
+        
+    }
+    .footer-icon-div {
+        background: #2E0435;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: flex-end;
+
+        .footer-icon {
+            margin-right: 2%;
+        }
+        .footer-icon2 {
+            margin-right: 17%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+
+        .footer-link {
+            display: flex;
+            flex-direction: column;
+            margin-left: 12%;
+        }
+    }
+}
